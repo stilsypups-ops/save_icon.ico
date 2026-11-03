@@ -1,0 +1,19 @@
+{
+  "parent": "diskette:determination",
+  "criteria": {
+    "sniffer_diskette": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": { "translate": "diskette.advancement.antiquarian.description" },
+    "icon": { "id": "minecraft:sniffer_egg" },
+    "title": { "translate": "diskette.advancement.antiquarian.title" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [["sniffer_diskette"]],
+  "rewards": { "experience": 10 }
+}

@@ -1,0 +1,102 @@
+{
+    "item.diskette.diskette": "Diskette",
+    "item.diskette.copper_diskette": "Copper Diskette",
+    "diskette.message.save_point_set": "Save point set! Remaining respawns: %s",
+    "diskette.message.remaining_respawns": "Remaining respawns: %s",
+    "diskette.message.save_point_exhausted": "Save point exhausted.",
+    "diskette.message.save_point_removed_bed": "Save point removed (spawn set on bed)",
+    "diskette.config.title": "Configuration",
+    "diskette.config.category.general": "General",
+    "diskette.config.category.loot": "Loot Sources",
+
+    "diskette.config.respawns_per_diskette": "Respawns per Diskette",
+    "diskette.config.respawns_per_diskette.tooltip": "How many respawns one diskette adds when used.",
+
+    "diskette.config.max_total_respawns": "Maximum Total Respawns",
+    "diskette.config.max_total_respawns.tooltip": "The maximum number of respawns that can be stored at once.",
+
+    "diskette.config.enable_ancient_city": "Enable Ancient City Loot",
+    "diskette.config.enable_ancient_city.tooltip": "If enabled, diskettes can appear in ancient city chests.",
+
+    "diskette.config.ancient_city_chance": "Ancient City Chance",
+    "diskette.config.ancient_city_chance.tooltip": "Chance (0.0 - 1.0) to find a diskette in an ancient city chest.",
+
+    "diskette.config.enable_stronghold": "Enable Stronghold Loot",
+    "diskette.config.enable_stronghold.tooltip": "If enabled, diskettes can appear in stronghold chests.",
+
+    "diskette.config.stronghold_chance": "Stronghold Chance",
+    "diskette.config.stronghold_chance.tooltip": "Chance (0.0 - 1.0) to find a diskette in a stronghold chest.",
+
+    "diskette.config.enable_sniffer": "Enable Sniffer Digging",
+    "diskette.config.enable_sniffer.tooltip": "If enabled, sniffers can dig out diskettes.",
+
+    "diskette.config.sniffer_chance": "Sniffer Chance",
+    "diskette.config.sniffer_chance.tooltip": "Chance (0.0 - 1.0) for a sniffer to dig out a diskette.",
+
+    "diskette.config.enable_archaeology": "Enable Archaeology Loot",
+    "diskette.config.enable_archaeology.tooltip": "If enabled, diskettes can be found by brushing suspicious blocks.",
+
+    "diskette.config.archaeology_chance": "Archaeology Chance",
+    "diskette.config.archaeology_chance.tooltip": "Chance (0.0 - 1.0) to find a diskette in archaeological sites.",
+
+    "diskette.config.enable_trial_vault": "Enable Trial Vault Loot",
+    "diskette.config.enable_trial_vault.tooltip": "If enabled, diskettes can appear in regular Trial Chambers Vaults.",
+
+    "diskette.config.trial_vault_chance": "Trial Vault Chance",
+    "diskette.config.trial_vault_chance.tooltip": "Chance (0.0 - 1.0) to find a diskette in a regular Vault.",
+
+    "diskette.config.enable_ominous_vault": "Enable Ominous Vault Loot",
+    "diskette.config.enable_ominous_vault.tooltip": "If enabled, diskettes can appear in Ominous Trial Chambers Vaults.",
+
+    "diskette.config.ominous_vault_chance": "Ominous Vault Chance",
+    "diskette.config.ominous_vault_chance.tooltip": "Chance (0.0 - 1.0) to find a diskette in an Ominous Vault.",
+
+    "diskette.config.enable_buried_treasure": "Enable Buried Treasure Loot",
+    "diskette.config.enable_buried_treasure.tooltip": "If enabled, diskettes can appear in buried treasure chests.",
+
+    "diskette.config.buried_treasure_chance": "Buried Treasure Chance",
+    "diskette.config.buried_treasure_chance.tooltip": "Chance (0.0 - 1.0) to find a diskette in buried treasure.",
+
+    "diskette.config.enable_desert_pyramid": "Enable Desert Pyramid Loot",
+    "diskette.config.enable_desert_pyramid.tooltip": "If enabled, diskettes can appear in desert pyramid chests.",
+
+    "diskette.config.desert_pyramid_chance": "Desert Pyramid Chance",
+    "diskette.config.desert_pyramid_chance.tooltip": "Chance (0.0 - 1.0) to find a diskette in a desert pyramid.",
+
+    "diskette.config.enable_jungle_temple": "Enable Jungle Temple Loot",
+    "diskette.config.enable_jungle_temple.tooltip": "If enabled, diskettes can appear in jungle temple chests.",
+
+    "diskette.config.jungle_temple_chance": "Jungle Temple Chance",
+    "diskette.config.jungle_temple_chance.tooltip": "Chance (0.0 - 1.0) to find a diskette in a jungle temple.",
+
+    "diskette.config.enable_simple_dungeon": "Enable Simple Dungeon Loot",
+    "diskette.config.enable_simple_dungeon.tooltip": "If enabled, diskettes can appear in simple dungeon chests.",
+
+    "diskette.config.simple_dungeon_chance": "Simple Dungeon Chance",
+    "diskette.config.simple_dungeon_chance.tooltip": "Chance (0.0 - 1.0) to find a diskette in a simple dungeon.",
+
+    "diskette.config.enable_abandoned_mineshaft": "Enable Abandoned Mineshaft Loot",
+    "diskette.config.enable_abandoned_mineshaft.tooltip": "If enabled, diskettes can appear in abandoned mineshaft chests.",
+
+    "diskette.config.abandoned_mineshaft_chance": "Abandoned Mineshaft Chance",
+    "diskette.config.abandoned_mineshaft_chance.tooltip": "Chance (0.0 - 1.0) to find a diskette in an abandoned mineshaft.",
+
+    "diskette.config.enable_save_scum": "Save Scumming",
+    "diskette.config.enable_save_scum.tooltip": "?..",
+
+    "diskette.advancement.determination.title": "Determination",
+    "diskette.advancement.determination.description": "Set a save point with a diskette",
+    "diskette.advancement.offense.title": "Oh",
+    "diskette.advancement.offense.description": "Lose valuable items due to an save",
+    "diskette.advancement.close_call.title": "Close call",
+    "diskette.advancement.close_call.description": "Survive 3 deaths in a row without losing valuables",
+    "diskette.advancement.antiquarian.title": "How did this get here?",
+    "diskette.advancement.antiquarian.description": "Obtain a diskette from a Sniffer",
+    "diskette.advancement.how_did_this_get_here.title": "Antiquarian",
+    "diskette.advancement.how_did_this_get_here.description": "Find a diskette during archaeology",
+    "diskette.advancement.oh_oh_oh.title": "Oh oh oh",
+    "diskette.advancement.oh_oh_oh.description": "Lose §lVERY§r valuable items due to an save",
+    "diskette.advancement.save_scum.title": "Save Scumming",
+    "diskette.advancement.save_scum.description": "Duplicate valuable items using a save point",
+    "lore.diskette.diskette": "A surviving piece of technology from the past. For some reason, it evokes a strange longing for a time I never even saw.\nAllows you to set §6§lsave points.§r"
+}

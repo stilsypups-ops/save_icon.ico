@@ -1,0 +1,42 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+license = "All Rights Reserved"
+
+[[mods]]
+    modId = "diskette"
+    version = "0.0.1"
+    displayName = "Diskette Saves"
+    description = "Adds a diskette item, which lets you §6§lsave§r"
+    credits = "-"
+    authors = "почти кодер (almost coder)"
+    logoFile = "logo.png"
+
+[[dependencies.diskette]]
+    modId = "neoforge"
+    type = "required"
+    versionRange = "[21.1.0,)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.diskette]]
+    modId = "minecraft"
+    type = "required"
+    versionRange = "[1.21.1,1.21.2)"
+    ordering = "NONE"
+    side = "BOTH"
+
+[[dependencies.diskette]]
+    modId = "cloth_config"
+    type = "optional"
+    side = "CLIENT"
+    versionRange = "[15,)"
+    ordering = "NONE"
+    reason = "Optional integration for configuration screen"
+
+[[dependencies.diskette]]
+    modId = "photon"
+    type = "optional"
+    side = "CLIENT"
+    versionRange = "[2.2.9,)"
+    ordering = "NONE"
+    reason = "Optional VFX integration"

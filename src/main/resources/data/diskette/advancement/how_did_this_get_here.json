@@ -1,0 +1,19 @@
+{
+  "parent": "diskette:determination",
+  "criteria": {
+    "archaeology_diskette": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": { "translate": "diskette.advancement.how_did_this_get_here.description" },
+    "icon": { "id": "minecraft:brush" },
+    "title": { "translate": "diskette.advancement.how_did_this_get_here.title" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [["archaeology_diskette"]],
+  "rewards": { "experience": 10 }
+}

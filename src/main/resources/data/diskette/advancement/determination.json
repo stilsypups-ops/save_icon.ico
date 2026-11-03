@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:adventure/root",
+  "criteria": {
+    "set_save_point": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "diskette.advancement.determination.description"
+    },
+    "icon": {
+      "id": "diskette:diskette"
+    },
+    "title": {
+      "translate": "diskette.advancement.determination.title"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "set_save_point"
+    ]
+  ],
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "diskette:copper_diskette"
+    ]
+  },
+  "sends_telemetry_event": true
+}

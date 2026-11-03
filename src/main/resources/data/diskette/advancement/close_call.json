@@ -1,0 +1,19 @@
+{
+  "parent": "diskette:determination",
+  "criteria": {
+    "deaths_without_loss": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": { "translate": "diskette.advancement.close_call.description" },
+    "icon": { "id": "minecraft:rabbit_foot" },
+    "title": { "translate": "diskette.advancement.close_call.title" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [["deaths_without_loss"]],
+  "rewards": { "experience": 20 }
+}

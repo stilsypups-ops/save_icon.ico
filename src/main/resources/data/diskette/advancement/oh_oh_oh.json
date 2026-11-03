@@ -1,0 +1,19 @@
+{
+  "parent": "diskette:offense",
+  "criteria": {
+    "lose_valuables": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": { "translate": "diskette.advancement.oh_oh_oh.description" },
+    "icon": { "id": "minecraft:netherite_ingot" },
+    "title": { "translate": "diskette.advancement.oh_oh_oh.title" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [["lose_valuables"]],
+  "rewards": { "experience": 100 }
+}
